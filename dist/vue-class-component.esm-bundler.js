@@ -362,7 +362,7 @@ var VueImpl = /*#__PURE__*/function () {
 /** @internal */
 
 
-VueImpl.__vccHooks = ['data', 'beforeCreate', 'created', 'beforeMount', 'mounted', 'beforeUnmount', 'unmounted', 'beforeUpdate', 'updated', 'activated', 'deactivated', 'render', 'errorCaptured', 'serverPrefetch'];
+VueImpl.__vccHooks = ['setup', 'data', 'beforeCreate', 'created', 'beforeMount', 'mounted', 'beforeUnmount', 'unmounted', 'beforeUpdate', 'updated', 'activated', 'deactivated', 'render', 'errorCaptured', 'serverPrefetch'];
 var Vue = VueImpl;
 
 function Options(options) {

@@ -182,7 +182,7 @@ function collectDataFromConstructor(vm, Component) {
   return plainData;
 }
 
-var $internalHooks = ['data', 'beforeCreate', 'created', 'beforeMount', 'mounted', 'beforeDestroy', 'destroyed', 'beforeUpdate', 'updated', 'activated', 'deactivated', 'render', 'errorCaptured', 'serverPrefetch' // 2.6
+var $internalHooks = ['setup', 'data', 'beforeCreate', 'created', 'beforeMount', 'mounted', 'beforeDestroy', 'destroyed', 'beforeUpdate', 'updated', 'activated', 'deactivated', 'render', 'errorCaptured', 'serverPrefetch' // 2.6
 ];
 function componentFactory(Component) {
   var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
